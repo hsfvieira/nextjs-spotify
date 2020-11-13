@@ -1,0 +1,29 @@
+.playlist {
+	display: flex;	
+	width: 150px;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border: 2px solid black;
+	font-family: sans-serif;
+	padding: 12px;
+	margin: 12px;
+	cursor: pointer;
+	background: linear-gradient(to left, white 50%, black 50%) right;
+	background-size: 200%;
+	transition: .4s ease-out;
+}
+
+.playlist img {
+	border: 2px solid white;
+}
+
+.playlist div {
+	margin-top: 6px;
+	font-weight: bold;
+}
+
+.playlist:hover {
+	color: white;
+	background-position: left;
+}

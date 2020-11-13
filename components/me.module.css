@@ -1,0 +1,20 @@
+.component {
+	display: flex;	
+	width: 300px;
+	margin: 0 auto;
+	align-items: center;
+	flex-direction: column;
+	padding: 12px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-family: sans-serif;
+}
+
+.component div {
+	margin-top: 6px;
+}
+
+.component div a {
+	text-decoration: none;
+	color: black;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "next-spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsfvieira/next-spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsfvieira/next-spotify/issues"
+  },
+  "homepage": "https://github.com/hsfvieira/next-spotify#readme",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
